@@ -1,19 +1,18 @@
 //==============================================================================
-// CS456 Assignment 02
+// The Go-Back-N Protocol
 //
 // @description: Module for providing functions to work with timer objects
-// @author: Ah Hoe Lai
-// @userid: ahlai
+// @author: Elisha Lai
 // @version: 1.0 01/11/2016
 //==============================================================================
 
 import java.util.Timer;
 
 public class timer {
-	private static final int DELAY = 150;
+   private static final int DELAY = 150;
    private static final int PERIOD = 150;
 
-	private Timer timer;
+   private Timer timer;
    private timeouttask timeOutTask;
 
    public timer(timeouttask timeOutTask) {
@@ -24,12 +23,12 @@ public class timer {
    public void start() {
       timer = new Timer();
       timeouttask newTimeOutTask = new timeouttask(timeOutTask);
-    	timer.schedule(newTimeOutTask, DELAY, PERIOD);
+      timer.schedule(newTimeOutTask, DELAY, PERIOD);
    } // start
 
    // Stops the timer
    public void stop() {
-    	timer.cancel();
+      timer.cancel();
    } // stop
 
    // Restarts the timer
