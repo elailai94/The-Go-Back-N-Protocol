@@ -1,9 +1,8 @@
 //==============================================================================
-// CS456 Assignment 02
+// The Go-Back-N Protocol
 //
 // @description: An implementation of a receiver program in Java
 // @author: Ah Hoe Lai
-// @userid: ahlai
 // @version: 1.0 01/11/2016
 //==============================================================================
 
@@ -13,8 +12,8 @@ import java.io.BufferedWriter;
 import java.net.DatagramSocket;
 
 public class receiver {
-	public static void main(String[] args) throws Exception {
-		// Checks the number and formats of the command line arguments passed
+   public static void main(String[] args) throws Exception {
+      // Checks the number and formats of the command line arguments passed
       checkCommandLineArguments(args);
  
       String emulatorAddress = args[0];
@@ -102,7 +101,7 @@ public class receiver {
       // Closes the arrival log writer and file writer
       arrivalLogWriter.close();
       fileWriter.close();
-	} // main
+   } // main
 
    // Checks the number and formats of the command line arguments passed
    private static void checkCommandLineArguments(String[] args) throws Exception {
