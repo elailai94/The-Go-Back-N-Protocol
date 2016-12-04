@@ -2,7 +2,7 @@
 // The Go-Back-N Protocol
 //
 // @description: An implementation of a receiver program in Java
-// @author: Ah Hoe Lai
+// @author: Elisha Lai
 // @version: 1.0 01/11/2016
 //==============================================================================
 
