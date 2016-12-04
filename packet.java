@@ -1,9 +1,8 @@
 //==============================================================================
-// CS456 Assignment 02
+// The Go-Back-N Protocol
 //
 // @description: Module for providing functions to work with Packet objects
-// @author: Ah Hoe Lai
-// @userid: ahlai
+// @author: Elisha Lai
 // @version: 1.0 01/11/2016
 //==============================================================================
 
