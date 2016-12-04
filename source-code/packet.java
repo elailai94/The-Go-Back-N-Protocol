@@ -27,16 +27,16 @@ public class packet {
 
    // Hidden constructor to prevent creation of invalid packets
    private packet(int type, int seqNum, String data) throws Exception {
-	  // Throws an exception if data seqment larger than allowed
-	  if (data.length() > MAX_DATA_LENGTH) {
-		 System.out.println("ERROR: Expecting data field which is at most" +
-		   	" 500 characters, but got " + data.length() + " characters");
+	    // Throws an exception if data seqment larger than allowed
+	    if (data.length() > MAX_DATA_LENGTH) {
+		     System.out.println("ERROR: Expecting data field which is at most" +
+		   	    " 500 characters, but got " + data.length() + " characters");
          System.exit(-1);
-	  } // if
+	    } // if
 			
-	  this.type = type;
-	  this.seqNum = seqNum % SEQ_NUM_MODULO;
-	  this.data = data;
+	    this.type = type;
+	    this.seqNum = seqNum % SEQ_NUM_MODULO;
+	    this.data = data;
    } // Constructor
 
    // Special packet constructors to be used in place of hidden constructor
