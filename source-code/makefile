@@ -1,5 +1,5 @@
 ##==============================================================================
-## CS456 Assignment 02
+## The Go-Back-N Protocol
 ##
 ## @description: Makefile for sender.java and receiver.java
 ## @author: Ah Hoe Lai
