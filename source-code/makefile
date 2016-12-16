@@ -2,8 +2,7 @@
 ## The Go-Back-N Protocol
 ##
 ## @description: Makefile for sender.java and receiver.java
-## @author: Ah Hoe Lai
-## @userid: ahlai
+## @author: Elisha Lai
 ## @version: 1.0 01/11/2016
 ##==============================================================================
 
