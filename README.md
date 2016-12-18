@@ -15,7 +15,7 @@ make clean
 
 ### Execution
 ```Bash
-./nEmulator
+./nEmulator <emulator_port_forward_direction> <receiver_address> <receiver_port> <emulator_port_backward_direction> <sender_address> <sender_port> <maximum_delay> <discard_probability> <verbose_mode>
 ./server.sh <req_code>
 ./client.sh <server_address> <n_port> <req_code> '<msg>'
 ```
